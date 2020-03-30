@@ -1,5 +1,8 @@
 // The entry file of your WebAssembly module.
+import pString from './Pstring'
 
-export function add(a: i32, b: i32): i32 {
-  return a + b;
-}
+// export function parser(str: String): Object {
+
+//   return {};
+// }
+export default pString;
